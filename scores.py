@@ -26,7 +26,11 @@ def main():
 		
 		print final
 
-		os.system('notify-send -t 10000 "CricScores" "' + final + '" ')
+		try:
+			os.system('notify-send -t 10000 "CricScores" "' + final + '" ')
+		except:
+			print "Currently desktop notifications aren't available on your OS"
+
 	except:
 		print "Make sure you are connected to a working Internet connection."
 
