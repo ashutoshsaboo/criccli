@@ -1,6 +1,6 @@
 # Cric-CLI
 
-This project provides a Command Line Interface (CLI) to view the latest cricket scores of all international, as well as domestic matches happening all over the world. 
+This project provides a Command Line Interface (CLI) to view the live cricket scores of all international, as well as domestic matches happening all over the world. 
 
 ## Instructions-:
 
